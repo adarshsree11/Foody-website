@@ -20,7 +20,7 @@ body {
     font-size: 1.2rem;
 }
 h1 {
-    font-size: 4rem;
+    font-size: 4.5rem;
     line-height: 1;
     font-weight: 1000;
 }
@@ -28,8 +28,12 @@ h1 {
     background-color: #FFC107;
 }
 #title-img{
-    width: 400px;
+    width: 70%;
 }
 .black-text{
     color: #343A40 !important;
+}
+
+.download-btn{
+    margin: 5% 3% 5%;
 }
