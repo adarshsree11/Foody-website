@@ -1,4 +1,4 @@
-body {
+body{
     margin: 0%;
     padding: 0%;
     border: 0;
@@ -6,7 +6,7 @@ body {
 }
 .container-fluid{
     padding: 3% 15%;
-}
+} 
 .navbar{
     padding:0 0 4.5rem;
 }
@@ -23,12 +23,18 @@ h1 {
     font-size: 4.5rem;
     line-height: 1;
     font-weight: 1000;
+    margin-top: 20%;
 }
 #title{
     background-color: #FFC107;
+    height: 110vh;
 }
 #title-img{
     width: 70%;
+    display: block;
+    margin: auto;
+    -webkit-filter: drop-shadow(5px 5px 10px #222);
+    filter: drop-shadow(5px 5px 10px #222);
 }
 .black-text{
     color: #343A40 !important;
@@ -36,4 +42,58 @@ h1 {
 
 .download-btn{
     margin: 5% 3% 5%;
+}
+
+/*Features*/
+
+#features{
+    padding: 13% 15% 7%;
+}
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+h3{
+    font-weight: 600;
+}
+p{
+    color: #8f8f8f;
+}
+.icon{
+    color: #FFC107;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color:#ffde07 ;
+}
+
+/*testimonials*/
+
+#testimonials{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #FFC107;
+}
+h2{
+    font-weight: 500;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.testimonial-image{
+    width: 10%;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+/*press*/
+
+
+#press{
+    background-color: #FFC107;
+    text-align: center;
+    padding-bottom: 5%;
+}
+.press-items{
+    width: 15%;
+    margin: 20% 20% 50%;
 }
