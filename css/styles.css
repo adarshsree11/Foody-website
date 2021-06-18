@@ -123,3 +123,47 @@ h2{
 }
 .card-item{
 }
+
+/* Call to Action*/
+
+#cta{
+    background-color: #FFC107;
+    color: #ffffff;
+    padding: 7% 15%;
+    text-align: center;
+}
+.cta-heading{
+    font-weight: 800;
+    font-size: 3.5rem;
+    line-height: 1.2;
+}
+
+/* Footer*/
+
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+}
+.social-icon{
+    margin: 20px 10px;
+}
+
+
+
+@media (max-width: 1028px){
+    #title-img{
+        margin-top: 15vh;
+    }
+    #title{
+        text-align: center;
+    }
+    #title{
+        height: 102vh;
+    }
+    .download-btn{
+        margin: 10% 3% 5%;
+    }
+    #features{
+        padding: 20% 15% 7%;
+    }
+}
